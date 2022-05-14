@@ -1,0 +1,2 @@
+replaceitem entity @s hotbar.0 cgm:heavy_rifle{AmmoCount: 4, Attachments: {Scope: {id: "cgm:long_scope", Count: 1b, tag: {Color: 7567221}}},Color: 10924686}
+replaceitem entity @s hotbar.7 cgm:advanced_bullet 32

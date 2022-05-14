@@ -1,0 +1,1 @@
+tp @a[tag=mcgo_player] @e[name=lobby,limit=1,sort=nearest]

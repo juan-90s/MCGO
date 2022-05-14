@@ -1,0 +1,14 @@
+{
+  "condition": "minecraft:entity_scores",
+  "entity": "this",
+  "scores": {
+    "pNblue": {
+      "min": 1,
+      "max": 5
+    },
+    "pNgold": {
+      "min": 1,
+      "max": 5
+    }
+  }
+}

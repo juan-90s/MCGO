@@ -1,0 +1,1 @@
+kill @e[tag=mcgo_point,limit=5,sort=nearest]
