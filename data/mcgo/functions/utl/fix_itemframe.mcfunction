@@ -1,1 +1,1 @@
-execute as @e[limit=12,sort=nearest,type=minecraft:item_frame] run data merge entity @s {Fixed:1b,Invisible:1b}
+execute as @e[type=minecraft:item_frame,distance=..10] run data merge entity @s {Fixed:1b,Invisible:1b}
