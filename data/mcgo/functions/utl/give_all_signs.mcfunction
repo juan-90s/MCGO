@@ -1,3 +1,8 @@
+# init game
+give @p minecraft:dark_oak_sign{BlockEntityTag:{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"function mcgo:ui/playsound/click"}}',Text2:'{"clickEvent":{"action":"run_command","value":"function mcgo:init_game"},"text":"MC:GO","color":"white"}',Text3:'{"text":"create game session"}'},display:{Name:'{"text":"init_game_sign"}'}}
+# quit game
+give @p minecraft:dark_oak_sign{BlockEntityTag:{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"function mcgo:ui/playsound/click"}}',Text2:'{"clickEvent":{"action":"run_command","value":"function mcgo:quit_game"},"text":"MC:GO","color":"white"}',Text3:'{"text":"close game session"}'},display:{Name:'{"text":"quit_game_sign"}'}}
+
 # init player
 give @p minecraft:dark_oak_sign{BlockEntityTag:{Text1:'{"text":"","clickEvent":{"action":"run_command","value":"function mcgo:ui/playsound/click"}}',Text2:'{"clickEvent":{"action":"run_command","value":"function mcgo:init_player"},"text":"Join MC:GO","color":"white"}'},display:{Name:'{"text":"init_player_sign"}'}}
 # quit player
