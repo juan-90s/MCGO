@@ -4,5 +4,5 @@ execute as @s[nbt=!{Inventory:[{Slot:4b,id:"cgm:grenade"}]}] if score @s cash ma
 execute as @s[nbt=!{Inventory:[{Slot:4b,id:"cgm:grenade"}]}] if score @s cash matches 300.. run function mcgo:ui/playsound/trade
 execute as @s[nbt=!{Inventory:[{Slot:4b,id:"cgm:grenade"}]}] unless score @s cash matches 300.. run tellraw @s [{"text":"You dont have enough cashs to buy the AR"}]
 execute as @s[nbt=!{Inventory:[{Slot:4b,id:"cgm:grenade"}]}] if score @s cash matches 300.. run scoreboard players remove @s cash 300
-execute as @s[nbt=!{Inventory:[{Slot:4b,id:"cgm:grenade"}]}] if score @s cash matches 300.. run replaceitem entity @s hotbar.4 cgm:grenade 1
+execute as @s[nbt=!{Inventory:[{Slot:4b,id:"cgm:grenade"}]}] if score @s cash matches 300.. run item replace entity @s hotbar.4 with cgm:grenade 1
 function mcgo:ui/show_cash_raw

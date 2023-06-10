@@ -1,2 +1,2 @@
-replaceitem entity @s hotbar.0 cgm:rifle{AmmoCount: 10, Attachments: {Scope: {id: "cgm:medium_scope", Count: 1b, tag: {Color: 7567221}}, Stock: {id: "cgm:tactical_stock", Count: 1b}},Color: 10116943}
-replaceitem entity @s hotbar.7 cgm:advanced_bullet 64
+item replace entity @s hotbar.0 with cgm:rifle{AmmoCount: 10, Attachments: {Scope: {id: "cgm:medium_scope", Count: 1b, tag: {Color: 7567221}}, Stock: {id: "cgm:tactical_stock", Count: 1b}},Color: 10116943}
+item replace entity @s hotbar.7 with cgm:advanced_bullet 64

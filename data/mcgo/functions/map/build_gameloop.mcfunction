@@ -1,3 +1,6 @@
+fill ~-2 ~-1 ~2 ~2 ~-1 ~6 stone
+fill ~-2 ~ ~2 ~2 ~1 ~6 air
+
 setblock ~1 ~ ~4 redstone_wire[east=side,west=side]
 setblock ~2 ~ ~4 command_block[facing=east]
 
@@ -18,7 +21,7 @@ setblock ~-2 ~ ~4 redstone_wire[east=side,north=side,south=side]
 setblock ~-2 ~ ~5 repeater[facing=north,delay=4]
 setblock ~-2 ~ ~6 command_block[facing=south]
 
-data merge block ~2 ~ ~4 {Command:"function mcgo:countdown"}
-data merge block ~ ~ ~6 {Command:"function mcgo:start_round"}
-data merge block ~-2 ~ ~6 {Command:"function mcgo:judge_round"}
+data merge block ~2 ~ ~4 {Command:"function mcgo:countdown",TrackOutput:false}
+data merge block ~ ~ ~6 {Command:"function mcgo:start_round",TrackOutput:false}
+data merge block ~-2 ~ ~6 {Command:"function mcgo:judge_round",TrackOutput:false}
 data merge block ~-1 ~ ~3 {Text2:'{"text":"MC:GO"}',Text3:'{"text":"GameLoop"}'}

@@ -1,1 +1,2 @@
 execute as @e[type=minecraft:item_frame,distance=..10] run data merge entity @s {Fixed:1b,Invisible:1b}
+execute as @e[type=minecraft:glow_item_frame,distance=..10] run data merge entity @s {Fixed:1b,Invisible:1b}

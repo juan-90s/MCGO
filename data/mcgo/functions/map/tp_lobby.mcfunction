@@ -1,1 +1,1 @@
-tp @s[tag=mcgo_player] @e[name=lobby,limit=1,sort=nearest]
+tp @s[tag=mcgo_player] @e[name="lobby",limit=1,sort=nearest]

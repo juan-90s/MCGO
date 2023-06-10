@@ -8,4 +8,5 @@ scoreboard players reset @s rKgold
 scoreboard players reset @s rKblue
 tellraw @a[tag=mcgo_player] [{"selector":"@s"}," quit"]
 tag @s remove mcgo_player
+gamemode survival
 

@@ -1,1 +1,1 @@
-execute as @e[name=op_marker,scores={inRound=0},limit=1,sort=nearest] if predicate mcgo:enough_p_num run function mcgo:zelf/countdown 
+execute as @e[name="op_marker",scores={inRound=0},limit=1,sort=nearest] if predicate mcgo:enough_p_num run function mcgo:zelf/countdown 

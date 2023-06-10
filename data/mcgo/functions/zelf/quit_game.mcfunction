@@ -1,22 +1,22 @@
 execute as @a[tag=mcgo_player] run function mcgo:quit_player
 function mcgo:map/tp_all_lobby
 
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] winRgold
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] winRblue
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] pNgold
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] pNblue
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] rKsumgold
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] rKsumblue
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] winRgold
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] winRblue
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] pNgold
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] pNblue
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] rKsumgold
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] rKsumblue
 
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] round
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] inRound 
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] cd
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] kLead
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] round
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] inRound 
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] cd
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] kLead
 
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] maxcd
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] awardK
-scoreboard players reset @e[name=op_marker,limit=1,sort=nearest] matchpoint
-kill @e[name=op_marker,limit=1,sort=nearest]
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] maxcd
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] awardK
+scoreboard players reset @e[name="op_marker",limit=1,sort=nearest] matchpoint
+kill @e[name="op_marker",limit=1,sort=nearest]
 
 # remove Players's Score
 scoreboard objectives remove cash

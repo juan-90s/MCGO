@@ -1,5 +1,5 @@
-execute as @s[team=gold] run scoreboard players remove @e[name=op_marker,limit=1,sort=nearest] pNgold 1
-execute as @s[team=blue] run scoreboard players remove @e[name=op_marker,limit=1,sort=nearest] pNblue 1
+execute as @s[team=gold] run scoreboard players remove @e[name="op_marker",limit=1,sort=nearest] pNgold 1
+execute as @s[team=blue] run scoreboard players remove @e[name="op_marker",limit=1,sort=nearest] pNblue 1
 team leave @s
 clear @s
 scoreboard players set @s cash 0

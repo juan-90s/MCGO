@@ -46,21 +46,21 @@ scoreboard objectives setdisplay list kNum
 
 summon minecraft:armor_stand ~ ~1 ~ {Invisible:1,Marker:1,CustomName:'{"text":"op_marker"}'}
 # init score for OP
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] matchpoint 8
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] maxcd 21
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] awardK 300
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] matchpoint 8
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] maxcd 21
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] awardK 300
 
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] round 0
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] inRound 0
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] cd -1
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] kLead 0
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] round 0
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] inRound 0
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] cd -1
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] kLead 0
 
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] winRgold 0
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] pNgold 0
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] rKsumgold 0
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] winRblue 0
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] pNblue 0
-scoreboard players set @e[name=op_marker,limit=1,sort=nearest] rKsumblue 0
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] winRgold 0
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] pNgold 0
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] rKsumgold 0
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] winRblue 0
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] pNblue 0
+scoreboard players set @e[name="op_marker",limit=1,sort=nearest] rKsumblue 0
 
 # check tp point 
 execute unless entity @e[name=lobby] run say Please Run mcgo:map/place_lobby at your lobby

@@ -90,9 +90,9 @@ The advantage of this method compared with CommandBlock is that it can better se
 - sound effect in the server gameplay is not stable, sometimes players wound not hear that
 - unbalanced economic system
 
-## 1.16 → 1.17+
+## Minecrafr Versions
 
-Coming soon or you can make your own
+Choose 1.18+ if you run on 1.17, 1.18, 1.19 etc, because `/replaceitem` was substituted with `/item replace` 
 
 ## Reference
 
